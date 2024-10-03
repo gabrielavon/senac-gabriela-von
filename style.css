@@ -1,0 +1,113 @@
+/* Define a fonte padrão para toda a página e remove as margens e os paddings que os navegadores aplicam por padrão */
+body {
+    font-family: Arial, sans-serif; /* Fonte da página (Arial ou outra sans-serif) */
+    margin: 0; /* Remove a margem externa padrão do navegador */
+    padding: 0; /* Remove o padding (espaço interno) padrão */
+    background-color: pink; /* Define uma cor de fundo suave (azul claro) para o corpo da página */
+}
+
+/* Estiliza o cabeçalho (header), que geralmente contém o título principal da página */
+header {
+    background-color: palevioletred; /* Cor de fundo verde escuro para o header */
+    color: white; /* Define a cor do texto como branco para contraste */
+    padding: 20px; /* Adiciona espaçamento interno de 20px ao redor do conteúdo do header */
+    text-align: center; /* Centraliza o conteúdo (texto) no header */
+}
+
+/* Remove a margem padrão que o navegador coloca nos títulos <h1> dentro do header */
+header h1 {
+    margin: 0; /* Elimina a margem superior e inferior do título, deixando-o alinhado ao padding do header */
+}
+
+/* Estiliza o elemento de navegação (nav), geralmente usado para os links de menu */
+nav {
+    background-color: palevioletred; /* Cor de fundo verde ainda mais escuro para o nav */
+    color: white; /* Texto branco para manter o contraste com o fundo escuro */
+    padding: 10px; /* Adiciona 10px de espaçamento interno em volta do conteúdo de navegação */
+    text-align: center; /* Centraliza o conteúdo do menu de navegação */
+}
+
+/* Remove os estilos de lista padrão do <ul> (lista não ordenada) dentro do nav */
+nav ul {
+    list-style: none; /* Remove os marcadores (bolinhas) da lista */
+    padding: 0; /* Remove o padding interno da lista */
+    margin: 0; /* Remove a margem externa da lista */
+}
+
+/* Estiliza os itens da lista <li> dentro do nav */
+nav ul li {
+    display: inline; /* Faz com que os itens da lista apareçam na mesma linha, ao invés de verticalmente */
+    margin-right: 20px; /* Adiciona um espaço de 20px à direita de cada item, exceto o último */
+}
+
+/* Estiliza os links dentro dos itens da lista de navegação */
+nav ul li a {
+    color: white; /* Define a cor do texto do link como um verde claro */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+/* Estiliza a área principal (main) da página, onde fica o conteúdo mais importante */
+main {
+    padding: 20px; /* Adiciona um espaço interno de 20px ao redor do conteúdo principal */
+    background-color: white; /* Define o fundo branco para destacar o conteúdo em relação ao fundo azul claro do body */
+    margin: 20px; /* Adiciona uma margem externa de 20px ao redor da seção main, separando-a das bordas da página */
+    border-radius: 10px; /* Adiciona bordas arredondadas para suavizar os contornos */
+  }
+
+/* Estiliza as seções (section) dentro do main, onde ficam blocos de conteúdo como "Sobre Nós" e "Serviços" */
+section {
+    margin-bottom: 20px; /* Adiciona uma margem inferior de 20px para separar visualmente as seções entre si */
+}
+
+section h2 {
+    color: pink; /* Define uma cor verde para os títulos das seções */
+}
+
+/* Estiliza a barra lateral (aside), que contém conteúdo complementar ou adicional, como notícias ou propagandas */
+aside {
+    background-color: pink; /* Define um fundo verde claro para destacar o aside do main */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px em torno do conteúdo do aside */
+    margin: 20px; /* Cria um espaço externo de 20px ao redor do aside, separando-o dos outros elementos */
+    border-left: 4px solid palevioletred; /* Adiciona uma borda esquerda de 4px de largura e cor verde escura (#004d40) para dar destaque ao aside */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao aside */
+}
+
+/* Estiliza o rodapé (footer), que geralmente contém informações legais ou de direitos autorais */
+footer {
+    background-color: palevioletred; /* Define um fundo verde escuro para o rodapé */
+    color: white; /* Texto branco para manter o contraste */
+    text-align: center; /* Centraliza o texto dentro do rodapé */
+    padding: 10px; /* Adiciona um espaçamento interno de 10px ao redor do conteúdo do footer */
+
+}
+h2{
+    color: palevioletred;
+}
+th{
+    color:pink
+}
+label{
+    color: pink;
+    background-color: palevioletred;
+}
+h3{
+    color:palevioletred;
+}
+nav {
+    background: lightpink;
+    text-align: center;
+    padding: 10px 0;
+}
+ 
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+ 
+nav a:hover {
+    background: pink;
+}
+ 
